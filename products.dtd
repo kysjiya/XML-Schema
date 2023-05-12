@@ -1,0 +1,6 @@
+<!ELEMENT products (product+)>
+<!ELEMENT product (productname, productrating, productprice)>
+<!ELEMENT productname (#PCDATA)>
+<!ELEMENT productrating (#PCDATA)>
+<!ELEMENT productprice (#PCDATA)>
+<!ATTLIST productname color CDATA #IMPLIED>
